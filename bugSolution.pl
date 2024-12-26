@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element;if ($#array >= 3) { #check if index is within bounds $element = $array[3];} else { $element = undef; #handle out of bound access }print "Element at index 3: $element\n";
